@@ -1,0 +1,17 @@
+employees.csv file:
+/home/ec2-user/spring-batch-app
+
+path to run mvn clean package:
+/home/ec2-user/spring-batch-app/Spring-Batch-CSV-to-DB-Project
+
+application target path:
+/home/ec2-user/spring-batch-app/Spring-Batch-CSV-to-DB-Project/target
+
+
+application.properties:
+/home/ec2-user/spring-batch-app/Spring-Batch-CSV-to-DB-Project/src/main/resources
+
+logging.file=/spring-app/logs
+
+KILL FILE kill -9 $(lsof -t -i:8096)
+
